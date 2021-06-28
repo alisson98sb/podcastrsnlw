@@ -1,5 +1,5 @@
 {
-  "name": "podcastrs",
+  "name": "podcastrnext",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,16 +9,18 @@
     "server": "json-server server.json -w -d 750 -p 3333"
   },
   "dependencies": {
-    "date-fns": "^2.22.1",
-    "next": "10.2.3",
+    "axios": "^0.21.1",
+    "date-fns": "^2.21.1",
+    "next": "^11.0.1",
+    "rc-slider": "^9.7.2",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "sass": "^1.34.1"
+    "sass": "^1.32.10"
   },
   "devDependencies": {
-    "@types/node": "^15.12.2",
-    "@types/react": "^17.0.11",
+    "@types/node": "^14.14.41",
+    "@types/react": "^17.0.3",
     "json-server": "^0.16.3",
-    "typescript": "^4.3.2"
+    "typescript": "^4.2.4"
   }
 }
